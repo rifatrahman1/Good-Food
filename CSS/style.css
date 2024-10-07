@@ -6,4 +6,49 @@
 }
 /* common css style end */
 
+body{
+    background-color: #1e1e1e;
+    font-family: "Work Sans", sans-serif;
+}
+
 /* main section */
+.main{
+    display: flex;
+    gap: 90px;
+    width: 1920px;
+    height: 669px;
+    align-items: center;
+    background-color: white;
+    margin: 180px auto;
+}
+.main-image{
+    border: dashed;
+}
+.main-title{
+    background-color: white;
+    text-align: center;
+}
+.main-title h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+}
+.main-title p{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 24px;
+    line-height: 28px;
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+}
+.main-title h3{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-top: 78px;
+    opacity: 0.7;
+    color: rgb(16, 16, 16);
+}
+.main-title img{
+    margin-top: 28px;
+}
